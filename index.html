@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karunesh Gupta | Interactive Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Floating Holographic Shapes -->
+    <div class="holo-shapes">
+        <div class="holo-shape holo-triangle"></div>
+        <div class="holo-shape holo-circle"></div>
+        <div class="holo-shape holo-square"></div>
+        <div class="holo-shape holo-hexagon"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-brand">
+            <span class="nav-logo">KG</span>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Karunesh Gupta</h1>
+                <p class="hero-tagline">Interactive Cybersecurity Portfolio | Allenhouse Institute of Technology, Kanpur</p>
+                <p class="hero-subtitle">Minimal Information, Maximum Knowledge through Interactivity</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('skills')">Explore Skills</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Connect</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Interactive Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Interactive Skill Demonstrations</h2>
+            
+            <!-- Programming Languages -->
+            <div class="skills-category">
+                <h3 class="category-title">Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-orb" data-skill="python">
+                        <div class="orb-content">
+                            <div class="skill-icon">🐍</div>
+                            <div class="skill-name">Python</div>
+                            <div class="skill-level" style="--level: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-orb" data-skill="java">
+                        <div class="orb-content">
+                            <div class="skill-icon">☕</div>
+                            <div class="skill-name">Java</div>
+                            <div class="skill-level" style="--level: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-orb" data-skill="c">
+                        <div class="orb-content">
+                            <div class="skill-icon">⚡</div>
+                            <div class="skill-name">C</div>
+                            <div class="skill-level" style="--level: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Technologies -->
+            <div class="skills-category">
+                <h3 class="category-title">Web Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-orb" data-skill="html">
+                        <div class="orb-content">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-level" style="--level: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-orb" data-skill="css">
+                        <div class="orb-content">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-level" style="--level: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cybersecurity Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">Cybersecurity Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-orb" data-skill="network-security">
+                        <div class="orb-content">
+                            <div class="skill-icon">🛡️</div>
+                            <div class="skill-name">Network Security</div>
+                            <div class="skill-level" style="--level: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-orb" data-skill="threat-analysis">
+                        <div class="orb-content">
+                            <div class="skill-icon">🔍</div>
+                            <div class="skill-name">Threat Analysis</div>
+                            <div class="skill-level" style="--level: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-orb" data-skill="data-structures">
+                        <div class="orb-content">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Data Structures</div>
+                            <div class="skill-level" style="--level: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Project Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Project Architecture Explorer</h2>
+            <div class="project-showcase">
+                <div class="project-3d-container">
+                    <div class="project-architecture">
+                        <div class="arch-layer frontend-layer" data-layer="frontend">
+                            <div class="layer-content">
+                                <h4>Frontend Layer</h4>
+                                <div class="tech-nodes">
+                                    <span class="tech-node">HTML5</span>
+                                    <span class="tech-node">CSS3</span>
+                                    <span class="tech-node">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arch-layer backend-layer" data-layer="backend">
+                            <div class="layer-content">
+                                <h4>Architecture Layer</h4>
+                                <div class="tech-nodes">
+                                    <span class="tech-node">Responsive Design</span>
+                                    <span class="tech-node">User Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arch-layer data-layer" data-layer="data">
+                            <div class="layer-content">
+                                <h4>Management Layer</h4>
+                                <div class="tech-nodes">
+                                    <span class="tech-node">Team Leadership</span>
+                                    <span class="tech-node">Agile Methodology</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-metrics">
+                    <div class="metric-card">
+                        <div class="metric-icon">👥</div>
+                        <div class="metric-value" data-animate="5">0</div>
+                        <div class="metric-label">Team Members</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">📈</div>
+                        <div class="metric-value" data-animate="70">0</div>
+                        <div class="metric-label">Engagement Increase (%)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">⚡</div>
+                        <div class="metric-value" data-animate="2">0</div>
+                        <div class="metric-label">Load Time (s)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Timeline -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Interactive Certification Timeline</h2>
+            <div class="timeline-container">
+                <div class="cert-timeline">
+                    <div class="cert-item" data-cert="google-cloud">
+                        <div class="cert-year">2024-25</div>
+                        <div class="cert-content">
+                            <h4>Google Cloud Cybersecurity</h4>
+                            <div class="cert-status ongoing">Ongoing</div>
+                        </div>
+                    </div>
+                    <div class="cert-item" data-cert="infosys">
+                        <div class="cert-year">2024</div>
+                        <div class="cert-content">
+                            <h4>Infosys Springboard Cybersecurity</h4>
+                            <div class="cert-status completed">Completed</div>
+                        </div>
+                    </div>
+                    <div class="cert-item" data-cert="data-structures">
+                        <div class="cert-year">2023-24</div>
+                        <div class="cert-content">
+                            <h4>Data Structures Training</h4>
+                            <div class="cert-status completed">Completed</div>
+                        </div>
+                    </div>
+                    <div class="cert-item" data-cert="project-charter">
+                        <div class="cert-year">2024</div>
+                        <div class="cert-content">
+                            <h4>Project Charter (Coursera)</h4>
+                            <div class="cert-status completed">Completed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Achievements -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h2 class="section-title">Achievement Board</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-achievement="innovation">
+                    <div class="achievement-icon">🚀</div>
+                    <div class="achievement-title">E-Summit'24 IIT Kanpur</div>
+                    <div class="achievement-progress">
+                        <div class="progress-bar innovation-meter" style="--progress: 85%"></div>
+                        <div class="progress-label">Innovation Meter</div>
+                    </div>
+                </div>
+                <div class="achievement-card" data-achievement="ai-tech">
+                    <div class="achievement-icon">🤖</div>
+                    <div class="achievement-title">AKTU AI Tech Confluence 2025</div>
+                    <div class="achievement-progress">
+                        <div class="progress-bar ai-meter" style="--progress: 90%"></div>
+                        <div class="progress-label">AI Knowledge</div>
+                    </div>
+                </div>
+                <div class="achievement-card" data-achievement="academic">
+                    <div class="achievement-icon">📚</div>
+                    <div class="achievement-title">Academic Excellence</div>
+                    <div class="achievement-progress">
+                        <div class="progress-bar academic-meter" style="--progress: 88%"></div>
+                        <div class="progress-label">Performance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Contact Interface -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Professional Contact Interface</h2>
+            <div class="contact-interface">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <div class="info-label">Email</div>
+                            <a href="mailto:karuneshgupta67@gmail.com" class="info-value" target="_blank">karuneshgupta67@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <div class="info-label">Phone</div>
+                            <a href="tel:+917607545587" class="info-value" target="_blank">+91-7607545587</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💼</div>
+                        <div class="info-content">
+                            <div class="info-label">LinkedIn</div>
+                            <a href="https://www.linkedin.com/in/karunesh-gupta-507b242a9/" class="info-value" target="_blank">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <div class="info-label">Location</div>
+                            <div class="info-value">Koyala nagar, Kanpur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Modals -->
+    <div class="modal hidden" id="skillModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content glassmorphic">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
